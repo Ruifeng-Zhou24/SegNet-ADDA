@@ -77,19 +77,19 @@ The original dataset is provided by our T.A., which contains opthalmoscopy photo
 This is our processed dataset. We used the `mogirfy` command to change the size to 480x480. Also, this dataset includes crop images for data augmentation. 
 - [Processed Dataset](https://pan.baidu.com/s/15B40Q4Qz5se3yV12UiLJbw "Title") Validation password: avkd  
 Usage:  
-　　Unzip and move all files into `./dataset/`.  
+　　Unzip and move all files into `./dataset/`  
 
 ## Pre-trained models
 Pre-trained SegNet model:
 - [Pre-trained Segnet model](https://pan.baidu.com/s/16WHkvr4wdll6sT3Sc_A7_g "Title") Validation password: cqeb  
 Usage:  
-　　Unzip and move all files into `./logs/`.  
+　　Unzip and move all files into `./logs/`  
 　　Then use the command `python main.py --mode test --ckpt model-19999`  
 
 Pre-trained ADDA model:
 - [Pre-trained ADDA model](https://pan.baidu.com/s/14zbOAE1K891YPyofYy0-Rw "Title") Validation password: jxrk  
 Usage:  
-　　Unzip and move all files into `./logs/adda/`.  
+　　Unzip and move all files into `./logs/adda/`  
 　　Then use the command `python main.py --mode test --ckpt adda/tar_model`  
 　　(We have limited time and GPU for training this model. It is better to train the model for 10,000 steps.)
 
