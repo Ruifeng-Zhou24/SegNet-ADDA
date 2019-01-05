@@ -3,10 +3,17 @@
 ./  
 |----dataset-----------------------------------------------------------------contains datasets and path files  
 |　　　|-----(directory)-------------------------------------------dataset directory (need to be downloaded)  
-|　　　|-----da.-------------------------------------------------------domain adaptation images path file  
-|　　　|-----test.txt---------------------------------------------------------------------test images path file  
-|　　　|-----train.txt--------------------------------------------------------------------train images path file  
-|　　　|-----val.txt----------------------------------------------------------------validation images path file  
+|　　　|-----da-----------------------------------------------------------domain adaptation images path file  
+|　　　|-----Disc_Crop.py---------------------------------------------------code for cropping images and labels  
+|　　　|-----Image3to255.py-------------------------------------------------change labels from 0, 1, 2 to 255, 128, 0  
+|　　　|-----Image255to3.py-------------------------------------------------change labels from 255, 128, 0 to 0, 1, 2   
+|----evaluation-----------------------------------------------------------------contains evaluation codes     
+|　　　|-----evaluate_single_submission.py----------------------------------------------------main code evaluation  
+|　　　|-----evaluation_metrics_for_classification.py-------------------------------metrics for classification evaluation  
+|　　　|-----evaluation_metrics_for_fovea_location.py-------------------------------metrics for fovea_location evaluation   
+|　　　|-----evaluation_metrics_for_segmentation.py---------------------------------metrics for segmentation evaluation   
+|　　　|-----file_management.py------------------------------------------------------------------read files  
+|　　　|-----leaderboard_criteria.py--------------------------------------------------not used in this project   
 |----logs-----------------------------contains training and domain adaptation logs (automatically generated)  
 |　　　|----adda--------------------------------------------------------contains domain adaptation log files  
 |　　　|　　　|----(files)---------------------------------------------------------domain adaptation log files  
