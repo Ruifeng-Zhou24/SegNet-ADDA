@@ -3,7 +3,7 @@
 ./  
 |----dataset-----------------------------------------------------------------contains datasets and path files  
 |　　　|-----(directory)-------------------------------------------dataset directory (need to be downloaded)  
-|　　　|-----da.txt-------------------------------------------------------domain adaptation images path file  
+|　　　|-----da.-------------------------------------------------------domain adaptation images path file  
 |　　　|-----test.txt---------------------------------------------------------------------test images path file  
 |　　　|-----train.txt--------------------------------------------------------------------train images path file  
 |　　　|-----val.txt----------------------------------------------------------------validation images path file  
