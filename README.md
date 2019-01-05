@@ -8,10 +8,10 @@
 |　　　|-----Image3to255.py-------------------------------------------------change labels from 0, 1, 2 to 255, 128, 0  
 |　　　|-----Image255to3.py-------------------------------------------------change labels from 255, 128, 0 to 0, 1, 2   
 |----evaluation-----------------------------------------------------------------contains evaluation codes     
-|　　　|-----evaluate_single_submission.py----------------------------------------------------main code evaluation  
-|　　　|-----evaluation_metrics_for_classification.py-------------------------------metrics for classification evaluation  
-|　　　|-----evaluation_metrics_for_fovea_location.py-------------------------------metrics for fovea_location evaluation   
-|　　　|-----evaluation_metrics_for_segmentation.py---------------------------------metrics for segmentation evaluation   
+|　　　|-----evaluate_single_submission.py-------------------------------------------------main code evaluation  
+|　　　|-----evaluation_metrics_for_classification.py-----------------------metrics for classification evaluation  
+|　　　|-----evaluation_metrics_for_fovea_location.py-----------------------metrics for fovea_location evaluation   
+|　　　|-----evaluation_metrics_for_segmentation.py-------------------------metrics for segmentation evaluation   
 |　　　|-----file_management.py------------------------------------------------------------------read files  
 |　　　|-----leaderboard_criteria.py--------------------------------------------------not used in this project   
 |----logs-----------------------------contains training and domain adaptation logs (automatically generated)  
