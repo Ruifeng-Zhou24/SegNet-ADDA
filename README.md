@@ -33,7 +33,7 @@
 ![alt text](/SegNet_modified.png "Title")
 
 ## Our Contributions
-* We referred to the tf-SegNet implemented by xxx (wang zhi). We replaced the devonc layer with unpool layer used in the original Caffe version SegNet;
+* We referred to the [tf-SegNet](https://github.com/tkuanlun350/Tensorflow-SegNet "Title") implemented by xxx (wang zhi). We replaced the devonc layer with unpool layer used in the original Caffe version SegNet;
 * We replaced the weighted loss with Jaccard loss implemented by ourselves. We get the inspiration from Hongyi Guo and Yuqiao He, who also took this project, when they deliver their mid-term presentation;
 * We cropped the origianl data provided by our T.A. to do data augmentation;
 * We implemented ADDA to achieve domain adaptation, so that our model is better on other datasets such as Validation400;(Other works that didn't result in performance improvement is not listed here)
@@ -71,4 +71,7 @@ We recommend you to run our project in Anaconda3. Use the following commands to 
 `python main.py --mode datest --ckpt adda/tar_model-99999`
 
 ## Dataset
-[Original Dataset](https://pan.baidu.com/share/init?surl=AIhsyDsmYeg84izrMR0eNQ "Title") validate password: m53z
+- [Original Dataset](https://pan.baidu.com/share/init?surl=AIhsyDsmYeg84izrMR0eNQ "Title") Validation password: m53z  
+- [Preprocessed Dataset](https://pan.baidu.com/s/15B40Q4Qz5se3yV12UiLJbw "Title") Validation password: avkd  
+- [Segnet trained model](https://pan.baidu.com/s/16WHkvr4wdll6sT3Sc_A7_g "Title") Validation password: cqeb  
+- [ADDA trained model](https://pan.baidu.com/s/1bBLX5BMn0q_0Qibq9-vGpA "Title") Validation password: ge7w  
