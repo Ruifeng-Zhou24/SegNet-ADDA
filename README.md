@@ -91,7 +91,7 @@ Pre-trained ADDA model:
 Usage:  
 　　Unzip and move all files into `./logs/adda/`  
 　　Then use the command `python main.py --mode test --ckpt adda/tar_model`  
-　　(We have limited time and GPU for training this model. It is better to train the model for 10,000 steps.)
+　　(We have limited time and GPU for training this model. It is better to train the model for 100,000 steps.)
 
 ## Acknowledgement
 We thank Prof. Sheng for giving us this opportunity to explore the problem of optic disc and cup segmentation. In this project, we have learned much about deep learning, segmentation, as well as some medical knowledge about ophthalmoscopy photographs and glaucoma. We are grateful for T.A. Yaxin Shen's patience and advice when guiding us through this project. We also appreciate Hongyi Guo and Yuqiao He's help. They give us help and advice regarding the loss function and the domain adaptation part (ADDA), and together we finished a survey regarding segmentation of optic disc and cup.
