@@ -68,4 +68,4 @@ We recommend you to run our project in Anaconda3. Use the following commands to 
 `python main.py --mode da --ckpt model-19999 --max_steps 100000`
 
 - test adda  
-`python main.py --mode datest --ckpt tar_model-99999`
+`python main.py --mode datest --ckpt adda/tar_model-99999`
