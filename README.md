@@ -33,10 +33,10 @@
 ![alt text](/SegNet_modified.png "Title")
 
 ## Our Contributions
-* We referred to the [tf-SegNet](https://github.com/tkuanlun350/Tensorflow-SegNet "Title") implemented by xxx (wang zhi). We replaced the devonc layer with unpool layer used in the original Caffe version SegNet;
+* We referred to the [tf-SegNet](https://github.com/tkuanlun350/Tensorflow-SegNet "Title") implemented by [Tseng Kuan Lun](https://github.com/tkuanlun350 "title"). We replaced the devonc layer with unpool layer used in the original Caffe version SegNet;
 * We replaced the weighted loss with Jaccard loss implemented by ourselves. We get the inspiration from Hongyi Guo and Yuqiao He, who also took this project, when they deliver their mid-term presentation;
 * We cropped the origianl data provided by our T.A. to do data augmentation;
-* We implemented ADDA to achieve domain adaptation, so that our model is better on other datasets such as Validation400;(Other works that didn't result in performance improvement is not listed here)
+* We implemented [ADDA](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tzeng_Adversarial_Discriminative_Domain_CVPR_2017_paper.pdf "Title") to achieve domain adaptation, so that our model is better on other datasets such as Validation400;(Other works that didn't result in performance improvement is not listed here)
 * We completed a survey regarding segmentation of optic disc and cup in collaboration with Hongyi Guo and Yuqiao He's group.
 
 ## Requirements
