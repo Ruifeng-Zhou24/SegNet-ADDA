@@ -79,5 +79,9 @@ This is our processed dataset. We used the `mogirfy` command to change the size 
 Usage: unzip and move all files into `./dataset/`.  
 
 ## Pre-trained models
-- [Segnet trained model](https://pan.baidu.com/s/16WHkvr4wdll6sT3Sc_A7_g "Title") Validation password: cqeb  
-- [ADDA trained model](https://pan.baidu.com/s/1bBLX5BMn0q_0Qibq9-vGpA "Title") Validation password: ge7w  
+Pre-trained SegNet model.
+- [Segnet](https://pan.baidu.com/s/16WHkvr4wdll6sT3Sc_A7_g "Title") Validation password: cqeb  
+Usage: unzip and move all files into `./logs/`. Then use the command  
+`python main.py --mode test --ckpt model-19999`  
+
+- [ADDA](https://pan.baidu.com/s/1bBLX5BMn0q_0Qibq9-vGpA "Title") Validation password: ge7w  
