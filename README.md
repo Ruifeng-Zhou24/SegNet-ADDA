@@ -86,6 +86,7 @@ Usage:
 Unzip and move all files into `./logs/`. Then use the command `python main.py --mode test --ckpt model-19999`  
 
 Pre-trained ADDA model:
-- [ADDA](https://pan.baidu.com/s/1bBLX5BMn0q_0Qibq9-vGpA "Title") Validation password: ge7w  
+- [ADDA](https://pan.baidu.com/s/14zbOAE1K891YPyofYy0-Rw "Title") Validation password: jxrk  
 Usage:  
 Unzip and move all files into `./logs/adda/`. Then use the command `python main.py --mode test --ckpt adda/tar_model`  
+(We have limited time and GPU for training this model. It is better to train the model for 10,000 steps.)
